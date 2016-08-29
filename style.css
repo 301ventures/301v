@@ -234,14 +234,14 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-3 p{
 	font-size: 15px;
 }
-#bloc-23 h3{
+#bloc-21 h3{
 	font-size: 30px;
 }
-#bloc-23 p{
+#bloc-21 p{
 	line-height: 22px;
 	font-size: 16px;
 }
-#bloc-23 p{
+#bloc-21 p{
 	font-size: 16px;
 }
 
@@ -726,6 +726,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-cadmium-green{
 	background-color:#006533;
 }
+.bgc-anti-flash-white-2{
+	background-color:#F2EFF2;
+}
 /* Text colour styles */
 
 .tc-black{
@@ -807,13 +810,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Bloc image backgrounds */
 
 .bg-lake{
-	background-image:url('img/lake.jpg');
+	background-image:url("img/lake.jpg");
 }
 .bg-header{
-	background-image:url('img/header.jpg');
+	background-image:url("img/header.jpg");
 }
 .bg-strategy{
-	background-image:url('img/strategy.jpeg');
+	background-image:url("img/strategy.jpeg");
 }
 
 
