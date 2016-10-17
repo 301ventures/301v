@@ -778,9 +778,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-persian-red-3{
 	color:#C33B40!important;
 }
-.tc-persian-red-4{
-	color:#C33B40!important;
-}
 /* Button colour styles */
 
 .btn-persian-red{
@@ -830,20 +827,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-white:hover{
 	background:#cbcccc;
 	color:rgba(0,0,0,.5)!important;
-}
-/* Link colour styles */
-
-.ltc-white{
-	color:#ffffff!important;
-}
-.ltc-white:hover{
-	color:#ffffff!important;
-}
-.ltc-white-2{
-	color:#FEFFFF!important;
-}
-.ltc-white-2:hover{
-	color:#cbcccc!important;
 }
 /* Icon colour styles */
 
