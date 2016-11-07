@@ -1,0 +1,374 @@
+html{
+    overflow-x: hidden !important;
+}
+
+body{
+    overflow-x: hidden !important;
+    font-size: 1em;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    background-color: #303236;
+}
+
+a:link { text-decoration: none; } 
+a:visited { text-decoration: none; } 
+a:hover { text-decoration: none;} 
+
+section{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+.globalHeader{
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    min-height: 40px;
+    
+}
+
+.gHeaderInside{
+    max-width: 1200px;
+    width: 95%;
+    position: relative;
+    margin: 0px auto;
+    display: block;
+    padding-top: 30px;
+}
+
+.logoCont{
+    display: inline-block;
+    position: relative;
+    max-width: 160px;
+    width:100%;
+    float: left;
+    min-height: 40px;
+}
+
+.logoCont img{
+    width: 100%;
+    position: relative;
+}
+
+.gheaderMenu{
+    float: right;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.menuItem{
+    display: inline-block;
+    padding: 5px 20px;
+    position: relative;
+}
+
+.menuItem a{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #92969c;
+    font-size: 12px;
+}
+
+.menuItem a:hover{
+    color: #fff;
+}
+
+@media(max-width: 415px){
+    .menuItem{
+        padding: 0px 15px;
+    }
+    .logoCont{
+        max-width: 120px;
+    }
+}
+
+.homeH2{
+    font-size: 12px;
+    color: #e55555;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin:0;
+}
+
+.homeH3{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin:0;
+}
+
+.homeP{
+    font-size: 16px;
+    color: #92969c;
+    line-height: 26px;
+}
+
+
+.titleFont{
+    font-family: 'Oswald', sans-serif;
+}
+
+.subtitlefont{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.bodyFont{
+    font-family: 'Merriweather', serif;
+}
+
+.BUnderline{
+    width: 50px;
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #404246;
+}
+
+.applyHero{
+    display:block;
+    width: 95%;
+    max-width: 860px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.applyHero a{
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: #c33c41;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+#ourMission{
+    background-color: #303236;
+    min-height: 300px;
+    padding-bottom: 40px;
+}
+
+#ourMissionCont{
+    max-width: 860px;
+    width: 95%;
+    position: relative;
+    margin: 0px auto;
+    padding-top: 80px;
+}
+
+#ourMissionLeft{
+    width: 45%;
+    padding-right: 5%;
+    float: left;
+    display: inline-block;
+    height: auto;
+    min-height: 200px;
+}
+
+#ourMissionRight{
+    width: 50%;
+    float: left;
+    display: inline-block;
+    height: auto;
+    min-height: 200px;
+}
+
+#ourMissionLeft .homeH2{
+    color: #c33c41;
+}
+
+#ourMissionLeft .homeH3{
+    color: #fff;
+    font-size: 34px;
+}
+
+#ourMissionLeft .homeH3 span{
+    color: #c33c41;
+}
+
+#ourMission .applyHero{
+    padding-top: 250px;
+    max-width: 760px;
+}
+
+#ourMission .applyHero a{
+    text-align: center;
+}
+
+@media(max-width:415px){
+    #ourMissionLeft, #ourMissionRight{
+        float: none;
+        width: 100%;
+        display: block;
+        text-align:center;
+    }
+    #ourMission .applyHero{
+        padding-top: 10px;
+    }
+    #ourMission .applyHero a{
+        left:50%;
+        position: absolute;
+        margin-left: -80px;
+    }
+    #ourMission .BUnderline{
+        margin:0px auto;
+        display: block;
+        margin-top: 15px;
+    }
+}
+
+#contact{
+    background-color: #303236;
+    min-height: 300px;
+    padding-top: 40px;
+    height: auto;
+    overflow-y: auto;
+}
+
+#contactBigLeft, #contactBigRight{
+    width: 50%;
+    float: left;
+    min-height: 400px;
+}
+
+#contactBigRight{
+    background: url(/assets/home/contactbgimg.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#contactContent{
+    max-width: calc(760px /2);
+    min-width: 100px;
+    float: right;
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+#contactLogo{
+    max-width: 130px;
+    padding-bottom: 20px;
+}
+
+#contactContent h5{
+    font-size: 10px;
+    color: #9fa3a7;
+    line-height: 12px;
+    padding: 0;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#contactContent p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#contactFinalText{
+    padding-top: 15px !important;
+    font-size: 12px !important;
+    color: #9fa3a7 !important;
+    text-transform: none !important;
+}
+
+@media(max-width: 415px){
+    #contact{
+        margin-top: 40px;
+        height: 340px;
+        overflow-y: hidden;
+    }
+    #contactBigLeft{
+        float: none;
+        width: 100%;
+        display: block;
+        text-align:center;
+        z-index: 2;
+        position: absolute;
+        padding-top: 40px;
+    }
+    #contactContent{
+        width: 100%;
+        float: none;
+    }
+    #contactBigRight{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        top: 0;
+        z-index: 0;
+    }
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    min-height: 200px;
+    background-color: #303236;
+    overflow-y: auto;
+    padding-bottom: 80px;
+}
+
+.lgFooter{
+    padding-top: 100px;
+    max-width: 470px;
+    margin: 0px auto;
+    display: block;
+}
+
+.lgFooterCol{
+    width: calc((100% / 3) - 20px);
+    padding: 0px 10px;
+    float: left;
+    display: inline-block;
+    min-height: 120px;
+}
+
+.footerHeader h3{
+    color: #c33c41;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.footerlink{
+    padding-bottom: 20px;
+    
+}
+
+.footerlink a{
+    line-height: 12px;
+    font-size: 12px;
+    color: #92969c;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footerlink a:hover{
+    color: #fff;
+}

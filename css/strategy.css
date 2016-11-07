@@ -1,0 +1,535 @@
+
+
+#strategyHero{
+    min-height: 400px;
+}
+
+#strategyHeroContent{
+    margin:0px auto;
+    display: block;
+    padding-top: 140px;
+    max-width: 600px;
+    width: 95%;
+}
+
+#straHeroImg{
+    max-width: 400px;
+    margin: 0px auto;
+    display: block;
+}
+
+#strategyHeroContent h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#strategyHeroContent h2{
+    text-align: center;
+    padding-top: 0px;
+}
+
+#straP{
+    color: #92969c;
+    text-align: center;
+}
+
+#strategyHeroContent .BUnderline{
+    margin: 0px auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.strHeroLinks{
+    max-width: 340px;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 40px;
+    padding-bottom: 180px;
+}
+
+.strHeroLinks .applyHero{
+    padding-bottom: 0px !important;
+}
+
+.applyHero a{
+    text-transform: uppercase;
+    padding: 11px 46px;
+    border-radius: 50px;
+    background-color: #c33c41;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    float: left;
+    display: inline-block;
+    border: 2px solid #c33c41;
+}
+
+.theTeamStraHeroBtn a{
+    text-transform: uppercase;
+    padding: 11px 46px;
+    border-radius: 50px;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    float: right;
+    display: inline-block;
+    border: 2px solid #4d4f54;
+}
+
+@media(max-width:415px){
+    #straHeroImg{
+        max-width: 300px;
+    }
+}
+
+
+#thesisContainer{
+    max-width: 760px;
+    width: 95%;
+    position: relative;
+    margin: 0px auto;
+    padding-top: 80px;
+}
+
+#thesisContainerLeft{
+    width: 27%;
+    padding-right: 15%;
+    float: left;
+    display: inline-block;
+    height: auto;
+    min-height: 100px;
+}
+
+#thesisContainerRight{
+    width: 58%;
+    float: right;
+    display: inline-block;
+    height: auto;
+    min-height: 200px;
+}
+
+#thesisImg{
+    max-width: 360px;
+    margin: 0px auto;
+    padding-top: 40px;
+    display: block;
+}
+
+@media(max-width:414px){
+    #thesisContainerLeft, #thesisContainerRight{
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    #thesisContainer .BUnderline{
+        margin: 0px auto;
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+}
+
+#pipelineSection{
+    min-height: 400px;
+    background-color: #c33c41;
+}
+
+#pipeContainer{
+    max-width: 920px;
+    margin: 0px auto;
+    padding-top: 100px;
+    display: block;
+    position: relative;
+    padding-bottom: 80px;
+    width: 95%;
+}
+
+#pCRow1, #pCRow2{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 20px;
+    overflow-y: auto;
+}
+
+.pcBox{
+    height: auto;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+}
+
+#pCBox1{
+    width: calc((100% / 3) - 10px);
+    float: left;
+    height: 380px;
+}
+
+#pCBox2{
+    width: calc((100% - (100% / 3)) - 10px);
+    background-color: #ac2631;
+    float: right;
+    height: 380px;
+}
+
+#pCBox3{
+    width: calc((100% - (100% / 3)) - 10px);
+    background-color: #ac2631;
+    float: left;
+    height: 240px;
+}
+
+#pCBox4{
+    width: calc((100% / 3) - 10px);
+    float: right;
+    background-color: #ac2631;
+    height: 240px;
+}
+
+#pCBox1 h2{
+    padding-top: 100px;
+    color: #ffc80a;
+}
+
+#pCBox1 h3{
+    font-size: 34px;
+    line-height: 38px;
+}
+
+#pcBoxUnderline{
+    background-color: #ac2631;
+}
+
+#pCBoxH2{
+    font-size: 26px;
+    line-height: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 12px;
+}
+
+#pCBox3H2{
+    font-size: 26px;
+    line-height: 26px;
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+
+#pCBox4H2{
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#pCBoxP{
+    color: #d7e3f0;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 18px;
+}
+
+#pCBox3 #pCBoxP{
+    padding-right: 100px;
+    margin-top: 8px;
+}
+
+#pipePartners{
+    width: calc(100% - 120px);
+    margin: 0px auto;
+    display: block;
+    padding-top: 11px;
+}
+
+#pCBox3Img{
+    height: 170px;
+    top: 35px;
+    right: 0;
+    position: absolute;
+}
+
+#pCBox4 .applyHero a{
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    background-color: #252525;
+    border: 2px solid #252525;
+
+}
+
+#pCBox4 .applyHero{
+    width: calc(100% - 120px);
+    margin: 0px auto;
+    display: block;
+    padding-top: 30px;
+    position: relative;
+}
+
+@media (max-width: 800px){
+    #pipeContainer .homeP{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    #pipeContainer .applyHero{
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+    }
+    #pipeContainer .applyHero a{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media(max-width:415px){
+    #pCBox1, #pCBox2, #pCBox3, #pCBox4{
+        width: 100%;
+        margin-bottom: 20px;
+        float: none;
+        display: block;
+    }
+    #pCBox1{
+        height: 140px;
+        text-align: center;
+    }
+    #pcBoxUnderline{
+        margin: 0px auto;
+        display: block;
+        position: relative;
+        margin-top: 15px;
+    }
+    #pCBox1 .homeh2{
+        padding-top: 0px;
+    }
+    #pCBoxH2, #pCBox3H2{
+        font-size: 26px;
+        line-height: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+    #pCBoxP{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #pipePartners{
+        width: calc(100% - 40px);
+    }
+    #pCBox4{
+        display: none;
+    }
+}
+
+/* How to Apply Section */
+
+#howToApply{
+    min-height: 600px;
+    height: auto;
+    padding-bottom: 60px;
+}
+
+#howToApplyHeader{
+    max-width: 600px;
+    margin: 0px auto;
+    display: block;
+    padding-top: 80px;
+    text-align: center;
+}
+
+#howToApplyHeader h2{
+    color: #c33c41;
+}
+
+#howToApplyHeader .BUnderline{
+    background-color: #404246;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.htApplyContent{
+    max-width: 760px;
+    min-height: 340px;
+    padding-bottom: 40px;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+}
+
+.htApplyImg, .htApplyText{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    min-height: 340px;
+}
+
+#htApplyRow1 .htApplyImg, #htApplyRow1 .htApplyText{
+    float: left;
+}
+
+#htApplyRow1 .htApplyImg img{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+#htApplyRow1 .htApplyText img{
+    position: absolute;
+    height: 60%;
+    top: 20%;
+    left: 0;z-index: -1;
+    
+}
+
+.htApplyH3{
+    color: #c33c41;
+    padding-top: 70px;
+}
+
+.htApplyH4{
+    color: #fff;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.htApplyP{
+    color: #92969c;
+}
+
+#htApplyRow1 .htApplyH3{
+    padding-left: 20px;
+}
+
+#htApplyRow1 .htApplyH4{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+#htApplyRow1 .htApplyP{
+    padding-left: 20px;
+}
+
+/* Row 2*/
+#htApplyRow2 .htApplyImg{
+    float: right;
+}
+
+#htApplyRow2 .htApplyText{
+    float: left
+}
+
+#htApplyRow2 .htApplyImg img{
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+#htApplyRow2 .htApplyText img{
+    position: absolute;
+    height: 60%;
+    top: 20%;
+    right: 0;
+    z-index: -1;
+    
+}
+
+#htApplyRow2 .htApplyH3{
+    padding-right: 20px;
+    text-align: right;
+}
+
+#htApplyRow2 .htApplyH4{
+    padding-top: 0px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+#htApplyRow2 .htApplyP{
+    padding-right: 20px;
+    text-align: right;
+}
+
+
+/* Row 3 */
+#htApplyRow3 .htApplyImg, #htApplyRow3 .htApplyText{
+    float: left;
+}
+
+#htApplyRow3 .htApplyImg img{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+#htApplyRow3 .htApplyText img{
+    position: absolute;
+    height: 60%;
+    top: 20%;
+    left: 0;z-index: -1;
+    
+}
+
+#htApplyRow3 .htApplyH3{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+#htApplyRow3 .htApplyH4{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+#htApplyRow3 .htApplyP{
+    padding-left: 20px;
+}
+
+
+/* Row 4*/
+#htApplyRow4 .htApplyImg{
+    float: right;
+}
+
+#htApplyRow4 .htApplyText{
+    float: left
+}
+
+#htApplyRow4 .htApplyImg img{
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+#htApplyRow4 .htApplyText img{
+    position: absolute;
+    height: 60%;
+    top: 20%;
+    right: 0;
+    z-index: -1;
+    
+}
+
+#htApplyRow4 .htApplyH3{
+    padding-right: 20px;
+    text-align: right;
+}
+
+#htApplyRow4 .htApplyH4{
+    padding-top: 0px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+#htApplyRow4 .htApplyP{
+    padding-right: 20px;
+    text-align: right;
+}

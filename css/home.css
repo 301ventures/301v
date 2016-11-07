@@ -1,0 +1,406 @@
+#homeHero{
+    min-height: 400px;
+    height: auto;
+}
+
+.homeMImg{
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    max-width: 240px;
+    height: auto;
+}
+
+.homeMImg img{
+    width: 100%;
+    position: relative;
+}
+
+#heroContent{
+    max-width: 860px;
+    width: 95%;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    min-height: 200px;
+}
+
+#heroStatement{
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 45%;
+}
+
+.spacerHero{
+    float: left;
+    display: inline-block;
+    width: 10%;
+}
+
+#heroDescription{
+    float: right;
+    display: inline-block;
+    position: relative;
+    width: 45%;
+}
+
+.homeH2{
+    font-size: 12px;
+    color: #e55555;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin:0;
+}
+
+.homeH3{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin:0;
+}
+
+.homeP{
+    font-size: 16px;
+    color: #92969c;
+    line-height: 26px;
+}
+
+.applyHero{
+    display:block;
+    width: 95%;
+    max-width: 860px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.applyHero a{
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: #c33c41;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#homeherobg{
+    width: 100%;
+    position: absolute;
+    
+}
+
+#homeHero .applyHero{
+    margin-top: 40px;
+}
+
+@media(max-width:415px){
+    .homeMImg{
+        max-width: 180px;
+        padding-top: 120px;
+    }
+    #heroStatement, #heroDescription{
+        float: none;
+        width: 100%;
+        display: block;
+        text-align:center;
+    }
+    #homeHero .applyHero{
+        text-align: center;
+    }
+    #heroContent .BUnderline{
+        margin: 0px auto;
+        display: block;
+        margin-bottom: 40px;
+        margin-top: 15px;
+        
+    }
+}
+
+/*Who are we section */
+#homeWhoAreWe{
+    background-color: #303236;
+    min-height: 400px;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+#testudoHome{
+    position: absolute;
+    right: 0;
+    max-width: 900px;
+    bottom: 0;
+    width: 50%;
+}
+
+
+
+#WAWContent{
+    max-width: 860px;
+    margin: 0px auto;
+    position: relative;
+    display: block;
+    padding-top: 100px;
+    width: 95%;
+}
+
+#WAWContentLeft{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    padding-right: 5%;
+}
+
+#WAWContentRight{
+    display: inline-block;
+    float: left;
+    width: 35%;
+}
+
+@media (max-width: 800px){
+    #WAWContent{
+        padding-top: 20px;
+    }
+    #WAWContentRight{
+        padding-bottom: : 30px;
+    }
+    
+}
+
+@media (max-width: 800px){
+    #testudoHome{
+        width: 75%;
+    }
+}
+
+@media(max-width:415px){
+    #WAWContentLeft, #WAWContentRight{
+        float: none;
+        width: 100%;
+        display: block;
+        text-align:center;
+    }
+    #testudoHome{
+        width: 95%;
+    }
+    #homeWhoAreWe .BUnderline{
+        margin: 0px auto;
+        display: block;
+        margin-top: 15px;
+    }
+}
+
+/*The Process */
+#theProcess{
+    background-color: #c33c41;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    height: auto;
+    min-height: 600px;
+}
+
+#theProcessContent{
+    margin:0px auto;
+    max-width: 860px;
+    width: 95%;
+    display: block;
+    position: relative;
+}
+
+#processLeft{
+    display: inline-block;
+    float: left;
+    width: 45%;
+    padding-right: 5%;
+}
+
+#processRight{
+    display: inline-block;
+    float: left;
+    width: 45%;
+    padding-right: 5%;
+}
+
+#processLeft .homeH2{
+    color: #ffc80a;
+}
+
+#processLeft .homeH3{
+    padding-bottom: 0px;
+}
+
+#processLeft .BUnderline{
+    background-color: #ac2631;
+}
+
+.processContainer{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    display: block;
+}
+
+.processContImg{
+    float: left;
+    display: inline-block;
+    width: 120px;
+    min-height: 120px;
+    position: relative;
+}
+
+
+.processContImg img{
+    width: 70%;
+
+}
+
+.processText{
+    width: calc(100% - 120px);
+    height: auto;
+    min-height: 160px;
+    float: right;
+}
+
+.processText h4{
+    font-size: 12px;
+    color: #ffc80a;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 16px;
+    margin:0;
+}
+
+.processText h5{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin:0;
+}
+
+.processText .homeP{
+    font-size: 14px;
+    color: #1d2029;
+    line-height: 24px;
+}
+
+#processLeft .applyHero a{
+    background-color: #303236;
+}
+
+#processLeft .applyHero{
+    padding-top: 60px;
+}
+
+@media(max-width:415px){
+    #processLeft, #processRight{
+        float: none;
+        width: 100%;
+        display: block;
+        text-align:center;
+    }
+    #processLeft .applyHero{
+        padding-top: 40px;
+    }
+    #processRight{
+        text-align: left;
+        padding-top: 50px;
+    }
+    #processLeft .BUnderline{
+        margin: 0px auto;
+        display: block;
+        margin-top: 15px;
+    }
+}
+
+
+
+/*Team Background*/
+
+#teambg{
+    background-color: #303236;
+    min-height: 1000px;
+    padding-bottom: 40px;
+}
+
+#teambgContent{
+    max-width: 860px;
+    width: 95%;
+    position: relative;
+    margin: 0px auto;
+    padding-top: 80px;
+}
+
+#teambgleft{
+    width: 27%;
+    padding-right: 5%;
+    float: left;
+    display: inline-block;
+    height: auto;
+    min-height: 200px;
+}
+
+#teambgright{
+    width: 68%;
+    float: left;
+    display: inline-block;
+    height: auto;
+    min-height: 400px;
+}
+
+#teambgleft h2{
+    color: #c33c41;
+}
+
+#teambgleft h3{
+    font-size: 34px;
+}
+
+.teambgComLogoCont{
+    width: calc(100% / 3);
+    height: auto;
+    min-height: 100px;
+    float: left;
+    display: inline-block;
+}
+
+.teambgComLogoCont img{
+    width: 70%;
+    padding: 15%;
+}
+
+@media(max-width: 415px){
+    #teambgleft, #teambgright{
+        float: none;
+        width: 100%;
+        display: block;
+        text-align:center;
+    }
+    #teambg{
+        min-height: 800px;
+    }
+    #teambg .BUnderline{
+        margin: 0px auto;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+}
+
+#contactEmail, #contactEmail:visited, #contactEmail:hover{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.mail a{
+    color: #fff !important;
+}

@@ -1,0 +1,530 @@
+
+#teamHeader{
+    min-height: 400px;
+}
+
+#aboutHero{
+    max-width: 720px;
+    width: 95%;
+    margin: 0px auto;
+    display: block;
+    padding-top: 180px;
+    height: auto;
+    padding-bottom: 120px;
+    min-height: 200px;
+}
+
+#aboutHero h3 span{
+    color: #c33c41;
+}
+
+#aboutHero .BUnderline{
+    background-color: #404246;
+}
+
+
+#aboutHeroLogoContainer{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+}
+
+.aboutHeroLogo{
+    width: calc(100% / 8);
+    min-height: 40px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+#greenSpringLogo{
+    width: 70%;
+    padding-top: 8px;
+}
+
+#jetLogo{
+    width: 50%;
+    padding-top: 6px;
+}
+
+#googleLogo{
+    width: 29%;
+    padding-top: 0px;
+}
+
+#umdLogo{
+    width: 31%;
+    padding-top: 0px;
+}
+
+#northropLogo{
+    width: 60%;
+    padding-top: 10px;
+}
+
+#lockheedLogo{
+    width: 33%;
+    padding-top: 0px;
+}
+
+#ngvpLogo{
+    width: 50%;
+    padding-top: 12px;
+}
+
+#nmvpLogo{
+    width: 70%;
+    padding-top: 12px;
+}
+
+
+#ourLeadership{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    height: auto;
+    min-height: 400px;
+}
+
+#leadershipInside{
+    max-width: 660px;
+    margin:0px auto;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    overflow-y: auto;
+    width: 95%;
+}
+
+.leadershipTile{
+    width: calc((100% / 2) - 10px);
+    height: 250px;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.tileLeft{
+    float: left;
+}
+
+.tileRight{
+    float: right;
+}
+
+.leadershipTile .BUnderline{
+    background-color: #404246;
+}
+
+#tile1 h2, #tile1 h3, #tile1 .BUnderline{
+    margin-left: 30px;
+}
+
+#tile1 h2{
+    padding-top: 20px;
+}
+
+#tile2{
+    background: url(/assets/team/andrew.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#tile3{
+    background: url(/assets/team/dan.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#tile4{
+    background: url(/assets/team/emmanuel.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#tile5{
+    background: url(/assets/team/ben.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#tile6{
+    background: url(/assets/team/ray.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.leaderInfo{
+    width: calc(100% - 10px);
+    padding-left: 10px;
+    padding-top: 180px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.leaderInfo .subtitlefont{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.leaderInfo .titleFont{
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    color: #f5c415;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.leaderInfo .bodyFont{
+    font-size: 10px;
+    line-height: 20px;
+    margin: 0;
+    color: #d7e3f0;
+}
+
+@media(max-width: 500px){
+    #tile1 h2, #tile1 h3, #tile1 .BUnderline{
+        margin-left: 10px;
+    }
+    #tile1 .homeH3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+#studentTeam{
+    max-width: 1100px;
+    margin: 0px auto;
+    display: block;
+    width: 95%;
+    padding-top: 80px;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+}
+
+#studentTeamLeft{
+    width: 30%;
+    height: auto;
+    float: left;
+    display: inline-block;
+    min-height: 600px;
+}
+
+#studentTeamRight{
+    width: 60%;
+    padding-right: 5%;
+    height: auto;
+    float: right;
+    display: inline-block;
+}
+
+#studentTeamLeft .BUnderline{
+    background-color: #404246;
+}
+
+.teamtile{
+    width: calc((100% / 3) - 20px);
+    margin: 10px;
+    background-color: red;
+    height: 170px;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+.teamInfo{
+    padding-left: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.teamtile .subtitlefont{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.teamtile .titleFont{
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    color: #f5c415;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#team1{
+    background: url(/assets/team/Navya.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#team2{
+    background: url(/assets/team/ryan.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#team3{
+    background: url(/assets/team/george.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#team4{
+    background: url(/assets/team/timothy.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#team5{
+    background: url(/assets/team/tj.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#team6{
+    background: url(/assets/team/ray.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#team7{
+    background: url(/assets/team/elan.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#team8{
+    background: url(/assets/team/teddy.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+@media(max-width:500px){
+    #studentTeamLeft, #studentTeamRight{
+        width: 100%;
+        display: block;
+        position: relative;
+        float: none;
+    }
+    #studentTeamLeft{
+        text-align:center;
+        min-height: 150px;
+        overflow-x: hidden !important;
+    }
+    #studentTeamLeft .BUnderline{
+        margin: 0px auto;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .teamtile{
+        width: calc((100% / 2) - 20px);
+        margin: 10px;
+        background-color: red;
+        height: 170px;
+        display: inline-block;
+        float: left;
+        position: relative;
+    }
+}
+
+
+
+
+#advisors{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    height: auto;
+    min-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+}
+
+#advisorHeader{
+    width: 95%;
+    max-width: 660px;
+    margin: 0px auto;
+    display: auto;
+    position: relative;
+    min-height: 330px;
+}
+
+#advisorLeftHeader{
+    width: 40%;
+    padding-right: 5%;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+#advisorLeftHeader .BUnderline{
+    background-color: #404246;
+}
+
+#advisorRightHeader{
+    width: 55%;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+#advisorRightHeader .bodyFont{
+    line-height: 30px;
+    color: #92969c;
+}
+
+#advisorProfiles{
+    padding-top: 10px;
+    max-width: 690px;
+    width: 95%;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+}
+
+.advisorTile{
+    width: calc((100% / 3) - 20px);
+    margin: 10px;
+    background-color: red;
+    height: 170px;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+.advisorInfo{
+    padding-left: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: calc(100% - 20px);
+}
+
+.advisorInfo .subtitlefont{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.advisorInfo .titleFont{
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.advisorInfo .titleFont span{
+    color: #f5c415
+}
+
+#advisor1{
+    background: url(/assets/team/elana.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advisor2{
+    background: url(/assets/team/jasonC.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advisor3{
+    background: url(/assets/team/davidQ.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advisor4{
+    background: url(/assets/team/ianN.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advisor5{
+    background: url(/assets/team/charlieP.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#advisor6{
+    background: url(/assets/team/mattF.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media(max-width: 500px){
+    #advisorLeftHeader, #advisorRightHeader{
+        width: 100%;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    #advisorLeftHeader .BUnderline{
+        margin: 0px auto;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .advisorTile{
+        width: calc((100% / 2) - 20px);
+        margin: 10px;
+        background-color: red;
+        height: 170px;
+        display: inline-block;
+        float: left;
+        position: relative;
+    }
+}
