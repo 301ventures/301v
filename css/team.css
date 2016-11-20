@@ -335,6 +335,14 @@
   background-size: cover;
 }
 
+#team9{
+    background: url(/assets/team/scott.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 @media(max-width:500px){
     #studentTeamLeft, #studentTeamRight{
