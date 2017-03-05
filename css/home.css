@@ -1,9 +1,9 @@
-#homeHero{
+#homeHero {
     min-height: 400px;
     height: auto;
 }
 
-.homeMImg{
+.homeMImg {
     margin: 0px auto;
     display: block;
     position: relative;
@@ -13,12 +13,12 @@
     height: auto;
 }
 
-.homeMImg img{
+.homeMImg img {
     width: 100%;
     position: relative;
 }
 
-#heroContent{
+#heroContent {
     max-width: 860px;
     width: 95%;
     margin: 0px auto;
@@ -27,52 +27,52 @@
     min-height: 200px;
 }
 
-#heroStatement{
+#heroStatement {
     float: left;
     display: inline-block;
     position: relative;
     width: 45%;
 }
 
-.spacerHero{
+.spacerHero {
     float: left;
     display: inline-block;
     width: 10%;
 }
 
-#heroDescription{
+#heroDescription {
     float: right;
     display: inline-block;
     position: relative;
     width: 45%;
 }
 
-.homeH2{
-    font-size: 12px;
+.homeH2 {
+    font-size: 16px;
     color: #e55555;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 25px;
-    margin:0;
+    margin: 0;
 }
 
-.homeH3{
+.homeH3 {
     font-size: 40px;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 50px;
-    margin:0;
+    margin: 0;
 }
 
-.homeP{
+.homeP {
     font-size: 16px;
     color: #92969c;
     line-height: 26px;
 }
 
-.applyHero{
-    display:block;
+.applyHero {
+    display: block;
     width: 95%;
     max-width: 860px;
     padding-top: 20px;
@@ -81,7 +81,7 @@
     margin: 0px auto;
 }
 
-.applyHero a{
+.applyHero a {
     text-transform: uppercase;
     padding: 15px 40px;
     border-radius: 50px;
@@ -92,41 +92,42 @@
     font-weight: 700;
 }
 
-#homeherobg{
+#homeherobg {
     width: 100%;
     position: absolute;
-    
 }
 
-#homeHero .applyHero{
+#homeHero .applyHero {
     margin-top: 40px;
 }
 
-@media(max-width:415px){
-    .homeMImg{
+@media(max-width:415px) {
+    .homeMImg {
         max-width: 180px;
         padding-top: 120px;
     }
-    #heroStatement, #heroDescription{
+    #heroStatement,
+    #heroDescription {
         float: none;
         width: 100%;
         display: block;
-        text-align:center;
-    }
-    #homeHero .applyHero{
         text-align: center;
     }
-    #heroContent .BUnderline{
+    #homeHero .applyHero {
+        text-align: center;
+    }
+    #heroContent .BUnderline {
         margin: 0px auto;
         display: block;
         margin-bottom: 40px;
         margin-top: 15px;
-        
     }
 }
 
+
 /*Who are we section */
-#homeWhoAreWe{
+
+#homeWhoAreWe {
     background-color: #303236;
     min-height: 400px;
     position: relative;
@@ -134,7 +135,7 @@
     padding-top: 40px;
 }
 
-#testudoHome{
+#testudoHome {
     position: absolute;
     right: 0;
     max-width: 900px;
@@ -142,9 +143,7 @@
     width: 50%;
 }
 
-
-
-#WAWContent{
+#WAWContent {
     max-width: 860px;
     margin: 0px auto;
     position: relative;
@@ -153,54 +152,56 @@
     width: 95%;
 }
 
-#WAWContentLeft{
+#WAWContentLeft {
     display: inline-block;
     float: left;
     width: 30%;
     padding-right: 5%;
 }
 
-#WAWContentRight{
+#WAWContentRight {
     display: inline-block;
     float: left;
     width: 35%;
 }
 
-@media (max-width: 800px){
-    #WAWContent{
+@media (max-width: 800px) {
+    #WAWContent {
         padding-top: 20px;
     }
-    #WAWContentRight{
+    #WAWContentRight {
         padding-bottom: : 30px;
     }
-    
 }
 
-@media (max-width: 800px){
-    #testudoHome{
+@media (max-width: 800px) {
+    #testudoHome {
         width: 75%;
     }
 }
 
-@media(max-width:415px){
-    #WAWContentLeft, #WAWContentRight{
+@media(max-width:415px) {
+    #WAWContentLeft,
+    #WAWContentRight {
         float: none;
         width: 100%;
         display: block;
-        text-align:center;
+        text-align: center;
     }
-    #testudoHome{
+    #testudoHome {
         width: 95%;
     }
-    #homeWhoAreWe .BUnderline{
+    #homeWhoAreWe .BUnderline {
         margin: 0px auto;
         display: block;
         margin-top: 15px;
     }
 }
 
+
 /*The Process */
-#theProcess{
+
+#theProcess {
     background-color: #c33c41;
     padding-top: 120px;
     padding-bottom: 80px;
@@ -208,48 +209,48 @@
     min-height: 600px;
 }
 
-#theProcessContent{
-    margin:0px auto;
+#theProcessContent {
+    margin: 0px auto;
     max-width: 860px;
     width: 95%;
     display: block;
     position: relative;
 }
 
-#processLeft{
+#processLeft {
     display: inline-block;
     float: left;
     width: 45%;
     padding-right: 5%;
 }
 
-#processRight{
+#processRight {
     display: inline-block;
     float: left;
     width: 45%;
     padding-right: 5%;
 }
 
-#processLeft .homeH2{
+#processLeft .homeH2 {
     color: #ffc80a;
 }
 
-#processLeft .homeH3{
+#processLeft .homeH3 {
     padding-bottom: 0px;
 }
 
-#processLeft .BUnderline{
+#processLeft .BUnderline {
     background-color: #ac2631;
 }
 
-.processContainer{
+.processContainer {
     width: 100%;
     height: auto;
     min-height: 200px;
     display: block;
 }
 
-.processContImg{
+.processContImg {
     float: left;
     display: inline-block;
     width: 120px;
@@ -257,66 +258,65 @@
     position: relative;
 }
 
-
-.processContImg img{
+.processContImg img {
     width: 70%;
-
 }
 
-.processText{
+.processText {
     width: calc(100% - 120px);
     height: auto;
     min-height: 160px;
     float: right;
 }
 
-.processText h4{
+.processText h4 {
     font-size: 12px;
     color: #ffc80a;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 16px;
-    margin:0;
+    margin: 0;
 }
 
-.processText h5{
+.processText h5 {
     font-size: 22px;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 26px;
-    margin:0;
+    margin: 0;
 }
 
-.processText .homeP{
+.processText .homeP {
     font-size: 14px;
     color: #1d2029;
     line-height: 24px;
 }
 
-#processLeft .applyHero a{
+#processLeft .applyHero a {
     background-color: #303236;
 }
 
-#processLeft .applyHero{
+#processLeft .applyHero {
     padding-top: 60px;
 }
 
-@media(max-width:415px){
-    #processLeft, #processRight{
+@media(max-width:415px) {
+    #processLeft,
+    #processRight {
         float: none;
         width: 100%;
         display: block;
-        text-align:center;
+        text-align: center;
     }
-    #processLeft .applyHero{
+    #processLeft .applyHero {
         padding-top: 40px;
     }
-    #processRight{
+    #processRight {
         text-align: left;
         padding-top: 50px;
     }
-    #processLeft .BUnderline{
+    #processLeft .BUnderline {
         margin: 0px auto;
         display: block;
         margin-top: 15px;
@@ -324,16 +324,15 @@
 }
 
 
-
 /*Team Background*/
 
-#teambg{
+#teambg {
     background-color: #303236;
     min-height: 1000px;
     padding-bottom: 40px;
 }
 
-#teambgContent{
+#teambgContent {
     max-width: 860px;
     width: 95%;
     position: relative;
@@ -341,7 +340,7 @@
     padding-top: 80px;
 }
 
-#teambgleft{
+#teambgleft {
     width: 27%;
     padding-right: 5%;
     float: left;
@@ -350,7 +349,7 @@
     min-height: 200px;
 }
 
-#teambgright{
+#teambgright {
     width: 68%;
     float: left;
     display: inline-block;
@@ -358,15 +357,15 @@
     min-height: 400px;
 }
 
-#teambgleft h2{
+#teambgleft h2 {
     color: #c33c41;
 }
 
-#teambgleft h3{
+#teambgleft h3 {
     font-size: 34px;
 }
 
-.teambgComLogoCont{
+.teambgComLogoCont {
     width: calc(100% / 3);
     height: auto;
     min-height: 100px;
@@ -374,33 +373,36 @@
     display: inline-block;
 }
 
-.teambgComLogoCont img{
+.teambgComLogoCont img {
     width: 70%;
     padding: 15%;
 }
 
-@media(max-width: 415px){
-    #teambgleft, #teambgright{
+@media(max-width: 415px) {
+    #teambgleft,
+    #teambgright {
         float: none;
         width: 100%;
         display: block;
-        text-align:center;
+        text-align: center;
     }
-    #teambg{
+    #teambg {
         min-height: 800px;
     }
-    #teambg .BUnderline{
+    #teambg .BUnderline {
         margin: 0px auto;
         margin-top: 15px;
         margin-bottom: 40px;
     }
 }
 
-#contactEmail, #contactEmail:visited, #contactEmail:hover{
+#contactEmail,
+#contactEmail:visited,
+#contactEmail:hover {
     color: #fff !important;
     text-decoration: none;
 }
 
-.mail a{
+.mail a {
     color: #fff !important;
 }

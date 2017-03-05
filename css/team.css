@@ -1,9 +1,8 @@
-
-#teamHeader{
+#teamHeader {
     min-height: 400px;
 }
 
-#aboutHero{
+#aboutHero {
     max-width: 720px;
     width: 95%;
     margin: 0px auto;
@@ -14,16 +13,15 @@
     min-height: 200px;
 }
 
-#aboutHero h3 span{
+#aboutHero h3 span {
     color: #c33c41;
 }
 
-#aboutHero .BUnderline{
+#aboutHero .BUnderline {
     background-color: #404246;
 }
 
-
-#aboutHeroLogoContainer{
+#aboutHeroLogoContainer {
     max-width: 1200px;
     width: 95%;
     margin: 0px auto;
@@ -31,7 +29,7 @@
     position: relative;
 }
 
-.aboutHeroLogo{
+.aboutHeroLogo {
     width: calc(100% / 8);
     min-height: 40px;
     display: inline-block;
@@ -39,57 +37,56 @@
     text-align: center;
 }
 
-#greenSpringLogo{
+#greenSpringLogo {
     width: 70%;
     padding-top: 8px;
 }
 
-#jetLogo{
+#jetLogo {
     width: 50%;
     padding-top: 6px;
 }
 
-#googleLogo{
+#googleLogo {
     width: 29%;
     padding-top: 0px;
 }
 
-#umdLogo{
+#umdLogo {
     width: 31%;
     padding-top: 0px;
 }
 
-#northropLogo{
+#northropLogo {
     width: 60%;
     padding-top: 10px;
 }
 
-#lockheedLogo{
+#lockheedLogo {
     width: 33%;
     padding-top: 0px;
 }
 
-#ngvpLogo{
+#ngvpLogo {
     width: 50%;
     padding-top: 12px;
 }
 
-#nmvpLogo{
+#nmvpLogo {
     width: 70%;
     padding-top: 12px;
 }
 
-
-#ourLeadership{
+#ourLeadership {
     padding-top: 100px;
     padding-bottom: 80px;
     height: auto;
     min-height: 400px;
 }
 
-#leadershipInside{
+#leadershipInside {
     max-width: 660px;
-    margin:0px auto;
+    margin: 0px auto;
     display: block;
     position: relative;
     padding-top: 100px;
@@ -98,7 +95,7 @@
     width: 95%;
 }
 
-.leadershipTile{
+.leadershipTile {
     width: calc((100% / 2) - 10px);
     height: 250px;
     display: inline-block;
@@ -106,67 +103,69 @@
     position: relative;
 }
 
-.tileLeft{
+.tileLeft {
     float: left;
 }
 
-.tileRight{
+.tileRight {
     float: right;
 }
 
-.leadershipTile .BUnderline{
+.leadershipTile .BUnderline {
     background-color: #404246;
 }
 
-#tile1 h2, #tile1 h3, #tile1 .BUnderline{
+#tile1 h2,
+#tile1 h3,
+#tile1 .BUnderline {
     margin-left: 30px;
 }
 
-#tile1 h2{
+#tile1 h2 {
     padding-top: 20px;
 }
 
-#tile2{
-    background: url(/assets/team/andrew.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#tile2 {
+    background: url(../assets/team/andrew.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#tile3{
-    background: url(/assets/team/dan.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#tile3 {
+    background: url(../assets/team/dan.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#tile4{
-    background: url(/assets/team/emmanuel.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#tile4 {
+    background: url(../assets/team/emmanuel.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#tile5{
-    background: url(/assets/team/ben.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#tile5 {
+    background: url(../assets/team/ben.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#tile6{
-    background: url(/assets/team/ray.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#tile6 {
+    background: url(../assets/team/ray.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.leaderInfo{
+.leaderInfo {
     width: calc(100% - 10px);
     padding-left: 10px;
     padding-top: 180px;
@@ -174,7 +173,7 @@
     bottom: 10px;
 }
 
-.leaderInfo .subtitlefont{
+.leaderInfo .subtitlefont {
     font-size: 20px;
     line-height: 20px;
     margin: 0;
@@ -182,7 +181,7 @@
     text-transform: uppercase;
 }
 
-.leaderInfo .titleFont{
+.leaderInfo .titleFont {
     font-size: 12px;
     line-height: 20px;
     margin: 0;
@@ -191,24 +190,26 @@
     letter-spacing: 1px;
 }
 
-.leaderInfo .bodyFont{
+.leaderInfo .bodyFont {
     font-size: 10px;
     line-height: 20px;
     margin: 0;
     color: #d7e3f0;
 }
 
-@media(max-width: 500px){
-    #tile1 h2, #tile1 h3, #tile1 .BUnderline{
+@media(max-width: 500px) {
+    #tile1 h2,
+    #tile1 h3,
+    #tile1 .BUnderline {
         margin-left: 10px;
     }
-    #tile1 .homeH3{
+    #tile1 .homeH3 {
         font-size: 30px;
         line-height: 35px;
     }
 }
 
-#studentTeam{
+#studentTeam {
     max-width: 1100px;
     margin: 0px auto;
     display: block;
@@ -218,15 +219,14 @@
     overflow-x: hidden !important;
 }
 
-#studentTeamLeft{
+#studentTeamLeft {
     width: 30%;
     height: auto;
     float: left;
     display: inline-block;
-    min-height: 600px;
 }
 
-#studentTeamRight{
+#studentTeamRight {
     width: 60%;
     padding-right: 5%;
     height: auto;
@@ -234,11 +234,11 @@
     display: inline-block;
 }
 
-#studentTeamLeft .BUnderline{
+#studentTeamLeft .BUnderline {
     background-color: #404246;
 }
 
-.teamtile{
+.teamtile {
     width: calc((100% / 3) - 20px);
     margin: 10px;
     background-color: red;
@@ -248,13 +248,13 @@
     position: relative;
 }
 
-.teamInfo{
+.teamInfo {
     padding-left: 10px;
     position: absolute;
     bottom: 10px;
 }
 
-.teamtile .subtitlefont{
+.teamtile .subtitlefont {
     font-size: 20px;
     line-height: 20px;
     margin: 0;
@@ -262,7 +262,7 @@
     text-transform: uppercase;
 }
 
-.teamtile .titleFont{
+.teamtile .titleFont {
     font-size: 12px;
     line-height: 20px;
     margin: 0;
@@ -271,98 +271,98 @@
     letter-spacing: 1px;
 }
 
-#team1{
-    background: url(/assets/team/Navya.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#team1 {
+    background: url(../assets/team/Navya.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#team2{
-    background: url(/assets/team/ryan.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#team2 {
+    background: url(../assets/team/ryan.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#team3{
-    background: url(/assets/team/george.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#team3 {
+    background: url(../assets/team/george.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#team4{
-    background: url(/assets/team/timothy.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#team4 {
+    background: url(../assets/team/timothy.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#team5{
-    background: url(/assets/team/tj.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#team5 {
+    background: url(../assets/team/tj.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#team6{
-    background: url(/assets/team/ray.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#team6 {
+    background: url(../assets/team/ray.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#team7{
-    background: url(/assets/team/elan.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#team7 {
+    background: url(../assets/team/elan.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#team8{
-    background: url(/assets/team/teddy.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#team8 {
+    background: url(../assets/team/teddy.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#team9{
-    background: url(/assets/team/scott.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#team9 {
+    background: url(../assets/team/scott.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-
-@media(max-width:500px){
-    #studentTeamLeft, #studentTeamRight{
+@media(max-width:500px) {
+    #studentTeamLeft,
+    #studentTeamRight {
         width: 100%;
         display: block;
         position: relative;
         float: none;
     }
-    #studentTeamLeft{
-        text-align:center;
+    #studentTeamLeft {
+        text-align: center;
         min-height: 150px;
         overflow-x: hidden !important;
     }
-    #studentTeamLeft .BUnderline{
+    #studentTeamLeft .BUnderline {
         margin: 0px auto;
         display: block;
         margin-top: 15px;
         margin-bottom: 30px;
     }
-    .teamtile{
+    .teamtile {
         width: calc((100% / 2) - 20px);
         margin: 10px;
         background-color: red;
@@ -373,10 +373,7 @@
     }
 }
 
-
-
-
-#advisors{
+#advisors {
     padding-top: 100px;
     padding-bottom: 80px;
     height: auto;
@@ -385,7 +382,7 @@
     overflow-x: hidden !important;
 }
 
-#advisorHeader{
+#advisorHeader {
     width: 95%;
     max-width: 660px;
     margin: 0px auto;
@@ -394,7 +391,7 @@
     min-height: 330px;
 }
 
-#advisorLeftHeader{
+#advisorLeftHeader {
     width: 40%;
     padding-right: 5%;
     display: inline-block;
@@ -402,23 +399,23 @@
     position: relative;
 }
 
-#advisorLeftHeader .BUnderline{
+#advisorLeftHeader .BUnderline {
     background-color: #404246;
 }
 
-#advisorRightHeader{
+#advisorRightHeader {
     width: 55%;
     display: inline-block;
     float: left;
     position: relative;
 }
 
-#advisorRightHeader .bodyFont{
+#advisorRightHeader .bodyFont {
     line-height: 30px;
     color: #92969c;
 }
 
-#advisorProfiles{
+#advisorProfiles {
     padding-top: 10px;
     max-width: 690px;
     width: 95%;
@@ -427,7 +424,7 @@
     margin: 0px auto;
 }
 
-.advisorTile{
+.advisorTile {
     width: calc((100% / 3) - 20px);
     margin: 10px;
     background-color: red;
@@ -437,14 +434,14 @@
     position: relative;
 }
 
-.advisorInfo{
+.advisorInfo {
     padding-left: 10px;
     position: absolute;
     bottom: 10px;
     width: calc(100% - 20px);
 }
 
-.advisorInfo .subtitlefont{
+.advisorInfo .subtitlefont {
     font-size: 20px;
     line-height: 20px;
     margin: 0;
@@ -452,7 +449,7 @@
     text-transform: uppercase;
 }
 
-.advisorInfo .titleFont{
+.advisorInfo .titleFont {
     font-size: 12px;
     line-height: 20px;
     margin: 0;
@@ -461,72 +458,73 @@
     letter-spacing: 1px;
 }
 
-.advisorInfo .titleFont span{
+.advisorInfo .titleFont span {
     color: #f5c415
 }
 
-#advisor1{
-    background: url(/assets/team/elana.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#advisor1 {
+    background: url(../assets/team/elana.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#advisor2{
-    background: url(/assets/team/jasonC.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#advisor2 {
+    background: url(../assets/team/jasonC.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#advisor3{
-    background: url(/assets/team/davidQ.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#advisor3 {
+    background: url(../assets/team/davidQ.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#advisor4{
-    background: url(/assets/team/ianN.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#advisor4 {
+    background: url(../assets/team/ianN.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#advisor5{
-    background: url(/assets/team/charlieP.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#advisor5 {
+    background: url(../assets/team/charlieP.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#advisor6{
-    background: url(/assets/team/mattF.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#advisor6 {
+    background: url(../assets/team/mattF.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-@media(max-width: 500px){
-    #advisorLeftHeader, #advisorRightHeader{
+@media(max-width: 500px) {
+    #advisorLeftHeader,
+    #advisorRightHeader {
         width: 100%;
         display: block;
         float: none;
         text-align: center;
     }
-    #advisorLeftHeader .BUnderline{
+    #advisorLeftHeader .BUnderline {
         margin: 0px auto;
         display: block;
         margin-top: 15px;
         margin-bottom: 30px;
     }
-    .advisorTile{
+    .advisorTile {
         width: calc((100% / 2) - 20px);
         margin: 10px;
         background-color: red;
