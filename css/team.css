@@ -227,6 +227,13 @@
     overflow-x: hidden !important;
 }
 
+#studentTeam .bodyFont {
+    font-size: 10px;
+    line-height: 20px;
+    margin: 0;
+    color: #d7e3f0;
+}
+
 #studentTeamLeft {
     width: 30%;
     height: auto;
@@ -349,6 +356,15 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#team10 {
+    background: url(../assets/team/AkashMagoon.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
 }
 
 @media(max-width:500px) {
@@ -480,14 +496,6 @@
 
 #advisor2 {
     background: url(../assets/team/jasonC.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#advisor3 {
-    background: url(../assets/team/davidQ.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
