@@ -166,7 +166,7 @@
 }
 
 #tile7 {
-    background: url(../assets/team/tj.jpg) no-repeat center center;
+    background: url(../assets/team/tj.jpg ) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
