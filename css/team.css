@@ -343,7 +343,7 @@
 }
 
 #team7 {
-    background: url(../assets/team/elan.jpg) no-repeat center center;
+    background: url(../assets/team/richard.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -351,7 +351,7 @@
 }
 
 #team8 {
-    background: url(../assets/team/teddy.jpg) no-repeat center center;
+    background: url(../assets/team/sharon.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -359,7 +359,7 @@
 }
 
 #team9 {
-    background: url(../assets/team/scott.jpg) no-repeat center center;
+    background: url(../assets/team/malik.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -373,6 +373,22 @@
     -o-background-size: cover;
     background-size: cover;
     height: 200px;
+}
+
+#team11 {
+    background: url(../assets/team/tjjoyce.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#team12 {
+    background: url(../assets/team/danieldore.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 @media(max-width:500px) {
